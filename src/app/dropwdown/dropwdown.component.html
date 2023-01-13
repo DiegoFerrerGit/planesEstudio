@@ -1,0 +1,5 @@
+<select class="classic" [(ngModel)]="selectedOption" (change)="onSelect($event)" >
+  <option selected disabled value="undefined">{{defaultOptionTitle}}</option>
+  <option *ngFor="let option of selectOptions" [ngValue]="option">{{option.name}}</option>
+</select>
+

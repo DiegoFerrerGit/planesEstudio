@@ -1,0 +1,83 @@
+{
+  "name": "Licenciatura En Informática",
+  "planEstudio":[
+      {
+          "year": 1,
+          "materias":[
+              "Álgebra y Geometría",
+              "Logica Simbolica",
+              "Sistemas de Información",
+              "Análisis Matemático",
+              "Programación Lógica",
+              "Idioma Extranjero I",
+              "Programación Orientada a Objetos",
+              "Matemática Discreta",
+              "Arquitectura del Computador",
+              "Cálculo Avanzado",
+              "Idioma Extranjero II"
+          ]
+      },
+      {
+          "year": 2,
+          "materias":[
+              "Lenguajes Formales y Computabilidad",
+              "Algoritmos y Estructuras de Datos I",
+              "Idioma Extranjero III",
+              "Grupo y Liderazgo",
+              "Taller de Algoritmos y Estructuras de Datos I",
+              "Estadística y Probabilidad (Nueva)",
+              "Base de Datos I",
+              "Algoritmos y Estructuras de Datos II",
+              "Taller de Algoritmos y Estructuras de Datos II",
+              "Administración",
+              "Idioma Extranjero IV"
+          ]
+      },
+      {
+          "year": 3,
+          "materias":[
+              "Análisis y Diseño de Software",
+              "Idioma Extranjero V",
+              "Pruebas de Sistemas",
+              "Principios de Economía",
+              "Sistemas Operativos",
+              "Ingeniería de Software",
+              "Seminario de Práctica de Lic. en Informática",
+              "Idioma Extranjero VI",
+              "Algoritmos Concurrentes y Paralelos",
+              "Comunicaciones",
+              "Desarrollo Emprendedor"
+          ]
+      },
+      {
+          "year": 4,
+          "materias":[
+              "Emprendimientos Universitarios",
+              "Desarrollo de Aplic. con Bases de Datos",
+              "Redes",
+              "Seguridad Informática",
+              "Electiva I",
+              "Sistemas Operativos Avanzados",
+              "Base da Datos II",
+              "Programación Cliente - Servidor",
+              "Desarrollo Web",
+              "Auditoría de Sistemas",
+              "Electiva II"
+          ]
+      },
+      {
+          "year": 5,
+          "materias":[
+              "Herramientas Matemáticas VI - Modelos de Simulación",
+              "Prac. Prof. de Lic. en Informática",
+              "Inteligencia Artificial",
+              "Calidad de Software",
+              "Seminario Final de Lic. en Informática",
+              "Gestión de Proyectos de Infraestructura",
+              "Ética y Deontología Profesional",
+              "Práctica Solidaria",
+              "Electivas"
+          ]
+      }
+  ]
+}

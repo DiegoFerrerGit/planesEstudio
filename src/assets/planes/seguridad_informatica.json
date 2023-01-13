@@ -1,0 +1,73 @@
+{
+  "name": "Licenciatura En Seguridad Informática",
+  "planEstudio":[
+      {
+          "year": 1,
+          "materias":[
+            "Herramientas Matemáticas I - Álgebra",
+            "Física",
+            "Introducción a la Seguridad Informática",
+            "Introducción a los Algoritmos",
+            "Paradigmas de Programación",
+            "Idioma Extranjero I",
+            "Herramientas Matemáticas II - Análisis",
+            "Auditoría de Seguridad Informática",
+            "Arquitectura del Computador",
+            "Introducción a Tecnologías de la Información y las Comunicaciones",
+            "Sociología General",
+            "Idioma Extranjero II"
+          ]
+      },
+      {
+          "year": 2,
+          "materias":[
+            "Herramientas Matemáticas III - Estadística I",
+            "Seguridad en Sistemas y Redes",
+            "Algoritmos y Estructura de Datos I",
+            "Lenguajes Formales y Computabilidad",
+            "Sistemas de Información",
+            "Idioma Extranjero III",
+            "Conocimiento de Materiales",
+            "Ciberdelitos",
+            "Algoritmos y Estructura de Datos II",
+            "Ingeniería de Software",
+            "Lógica Simbólica",
+            "Idioma Extranjero IV"
+          ]
+      },
+      {
+          "year": 3,
+          "materias":[
+            "Criptografía",
+            "Taller de Algoritmos y Estructura de Datos I",
+            "Análisis y Diseño de Software",
+            "Pruebas de Sistemas",
+            "Ética y Deontología Profesional",
+            "Idioma Extranjero V",
+            "Gestión de la Seguridad Informática",
+            "Taller de Algoritmos y Estructura de Datos II",
+            "Base de Datos I",
+            "Grupo y Liderazgo",
+            "Idioma Extranjero VI",
+            "Seminario de Práctica de Seguridad Informática"
+          ]
+      },
+      {
+          "year": 4,
+          "materias":[
+            "Principios de Informática Forense",
+            "Seguridad Informática",
+            "Auditoría de Sistemas",
+            "Calidad de Software",
+            "Sistemas Operativos",
+            "Práctica Profesional de Seguridad Informática",
+            "Base de Datos II",
+            "Inteligencia Artificial",
+            "Sistemas Operativos II (Redes)",
+            "Introducción a la Innovación",
+            "Emprendimientos Universitarios",
+            "Seminario Final de Seguridad Informática"
+          ]
+      }
+  ]
+}

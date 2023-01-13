@@ -1,0 +1,61 @@
+
+
+<section class="container">
+
+  <header class="header">
+    <div class="dropdown-container">
+      <app-dropwdown [defaultOptionTitle]="'Seleccionar carrera 1'" [selectOptions]="selectOptions1" (onSelected)="getCarrera1($event)"></app-dropwdown>
+      <app-dropwdown [defaultOptionTitle]="'Seleccionar carrera 2'" [selectOptions]="selectOptions2" (onSelected)="getCarrera2($event)"></app-dropwdown>
+    </div>
+    <button
+      [ngStyle]="{visibility: selectedCarrera1 && selectedCarrera2 ? 'visible' : 'hidden'}"
+      class="button-select" (click)="transformPlans()">
+      Comparar
+    </button>
+  </header>
+
+  <section class="boxs-container" *ngIf="showPlan">
+    <!-- En comun -->
+    <div class="box-container box-height">
+      <h1 class="title-box">Materias en Común</h1>
+      <span class="count" *ngIf="materiasEnComun">Cantidad materias en comun: {{materiasEnComun.length}}</span>
+      <hr>
+      <ul class="list-box-custom">
+        <li *ngFor="let planEstudio of materiasEnComun">{{planEstudio.materia}}</li>
+      </ul>
+    </div>
+
+    <!-- Carrera 1 -->
+    <div class="box-container">
+      <h1 class="title-box">{{selectedCarrera1.name}}</h1>
+      <!-- <span class="count">Total Materias carrera: {{totalMaterias1}}</span> -->
+      <span class="count">Cantidad materias diferentes: {{countCarrera1}}</span>
+      <hr>
+      <ul class="list-box">
+        <div class="list-container" *ngFor="let year of carrera1DiferenciaView;let index = index">
+          <h4 class="year">{{index + 1}} año</h4>
+          <li  class="materia" *ngFor="let materia of year">{{materia}}</li>
+        </div>
+      </ul>
+    </div>
+
+    <!-- Carrera 2 -->
+    <div class="box-container">
+      <h1 class="title-box">{{selectedCarrera2.name}}</h1>
+      <!-- <span class="count">Total Materias carrera: {{totalMaterias2}}</span> -->
+      <span class="count">Cantidad materias diferentes: {{countCarrera2}}</span>
+      <hr>
+      <ul class="list-box">
+        <div class="list-container" *ngFor="let year of carrera2DiferenciaView;let index = index">
+          <h4 class="year">{{index + 1}} año</h4>
+          <li  class="materia" *ngFor="let materia of year">{{materia}}</li>
+        </div>
+      </ul>
+    </div>
+
+  </section>
+
+  <section class="banner" *ngIf="!showPlan">
+    <h4>Seleccione las carrera que desea comparar</h4>
+  </section>
+</section>

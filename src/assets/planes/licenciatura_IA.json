@@ -1,0 +1,73 @@
+{
+  "name": "Licenciatura En Inteligencia Artificial Y Robótica",
+  "planEstudio":[
+      {
+          "year": 1,
+          "materias":[
+            "Herramientas Matemáticas I - Álgebra",
+            "Física",
+            "Programación Lógica",
+            "Sistemas de Información Organizacionales",
+            "Sociología General",
+            "Idioma Extranjero I",
+            "Herramientas Matemáticas II - Análisis",
+            "Cálculo Avanzado",
+            "Matemática Discreta",
+            "Transferencia e Innovación Tecnológica",
+            "Introducción a la Inteligencia Artificial",
+            "Idioma Extranjero II"
+          ]
+      },
+      {
+          "year": 2,
+          "materias":[
+            "Herramientas Matemáticas III - Estadística I",
+            "Lógica Simbólica",
+            "Algoritmos y Estructura de Datos I",
+            "Lenguajes Formales y Computabilidad",
+            "Automatización Industrial",
+            "Idioma Extranjero III",
+            "Herramientas Matemáticas IV - Investigación Operativa",
+            "Paradigmas de Programación",
+            "Algoritmos y Estructura de Datos II",
+            "Gestión de Calidad",
+            "Desarrollo Emprendedor",
+            "Idioma Extranjero IV"
+          ]
+      },
+      {
+          "year": 3,
+          "materias":[
+            "Herramientas Matemáticas V - Estadística II",
+            "Análisis y Diseño de Software",
+            "Gestión de Manufactura Integrada por Computadora",
+            "Mecatrónica",
+            "Ética y Deontología Profesional",
+            "Idioma Extranjero V",
+            "Base de Datos I",
+            "Inteligencia Artificial",
+            "Modelado de Agentes y Entornos Virtuales",
+            "Grupo y Liderazgo",
+            "Idioma Extranjero VI",
+            "Seminario de Práctica de Inteligencia Artificial y Robótica"
+          ]
+      },
+      {
+          "year": 4,
+          "materias":[
+            "Herramientas Matemáticas VI - Modelos de Simulación",
+            "Seguridad Informática",
+            "Inteligencia Artificial Avanzada",
+            "Geometría Analítica",
+            "Robótica Industrial",
+            "Práctica Profesional de Inteligencia Artificial y Robótica",
+            "Base de Datos II",
+            "Auditoría de Sistemas",
+            "Cálculo Diferencial",
+            "Diseño de Interfaz Hombre Máquina",
+            "Emprendimientos Universitarios",
+            "Seminario Final de Inteligencia Artificial y Robótica"
+          ]
+      }
+  ]
+}
